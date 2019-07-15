@@ -1,0 +1,23 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Test app with cypress e2e test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastiangolian/cypress-test.git"
+  },
+  "keywords": ["e2e","cypress"],
+  "author": "sebastiangolian <sebastiangolian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastiangolian/cypress-test/issues"
+  },
+  "homepage": "https://github.com/sebastiangolian/cypress-test#readme",
+  "devDependencies": {
+    "cypress": "^3.4.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "svn.ignoreMissingSvnWarning": true,
+    "files.exclude": {
+        "node_modules/": true,
+        ".gitignore": true,
+      }
+}

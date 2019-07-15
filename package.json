@@ -2,9 +2,9 @@
   "name": "cypress-test",
   "version": "1.0.0",
   "description": "Test app with cypress e2e test",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress open",
+    "cypress": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sebastiangolian/cypress-test#readme",
   "devDependencies": {
-    "cypress": "^3.4.0"
+    "cypress": "^3.4.0",
+    "lodash": "^4.17.14"
   }
 }

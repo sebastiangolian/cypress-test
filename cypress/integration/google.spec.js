@@ -13,8 +13,7 @@ describe('google.com', () => {
     it('should search "polska" by keyboard', () => {
         cy.get('.gLFyf').clear()
         cy.get('.MiYK0e').click()
-        cy
-            .get('#K80').click()    //P
+        cy  .get('#K80').click()    //P
             .get("#K79").click()    //O
             .get("#K76").click()    //L
             .get("#K83").click()    //S
@@ -23,6 +22,4 @@ describe('google.com', () => {
             .get("#K16").click()    //ENTER
         cy.get('#rso').should('contain', 'Wikipedia')
     })
-
-    
 })
